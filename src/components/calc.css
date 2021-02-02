@@ -1,0 +1,104 @@
+body{
+    background-color: #14213d;
+    text-align: center;
+    color: #e29d8c;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+#display{
+    width:70%;
+
+    max-height: 600px;
+    margin: 5% auto;
+    padding:3% 1%;
+    border-radius: 15px;
+    background-color: #370617;
+    box-shadow: 0.5rem 0.5rem #dc2e0286;   
+}
+
+@media all and (min-height: 500px){
+    #display{
+        height: 70vh;
+    }
+}
+
+@media all and (min-width: 450px){
+    #display{
+       width: 60%; 
+    } 
+}
+
+@media all and (min-width: 650px){
+    #display{
+       width: 50%;
+    } 
+} 
+
+@media all and (min-width: 900px){
+    #display{
+       width: 40%;
+    } 
+}
+
+@media all and (min-width: 1000px){
+    #display{
+       width: 30%;
+    } 
+}
+
+#results{
+    width:82%;
+    margin: 2% auto;
+    height:7rem;
+    background-color:#6a040f;
+    border-radius: 15px;
+    padding:0 2%;
+    text-align: left;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#keyPad{
+    margin: 10% auto;
+    height: 50vh;
+}
+
+button{
+    color: #e29d8c;
+    font-size:1.5rem;
+    font-weight:bold;
+    width:20%;
+    height: 8vh;
+    padding: 1% 1.5%;
+    margin:1%;
+    border-radius: 15px;
+    text-decoration: none;
+    background-color: #6a040f;
+    box-shadow: 0.2rem 0.3rem hsla(12, 98%, 44%, 0.507);
+    border: none;
+    outline:none;
+    opacity: 0.7;
+    transition: all ease 0 0.3s;
+}
+
+button:hover{
+    opacity:1;
+    box-shadow: 0.2rem 0.3rem hsla(12, 98%, 44%, 0.644);
+}
+
+button:focus{
+    opacity:1;
+    box-shadow: 0.2rem 0.3rem hsla(12, 98%, 44%, 0.644);
+    transition: all 0 0.3s;
+}
+
+.toggled{
+    background-color: #e29d8c;
+    color: #6a040f;
+    box-shadow: 0.2rem 0.3rem hsla(12, 44%, 54%, 0.644);
+    transition: all ease 0 0.3s;
+}
