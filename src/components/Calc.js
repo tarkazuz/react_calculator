@@ -156,7 +156,7 @@ class Calc extends Component{
              <div >
              
   
-                <h1>My upside-down calculator</h1>
+                <h1>My retro calculator</h1>
                 {document.addEventListener('keyup', this.onKeybordClick)}
                 <div id="display">
 
@@ -195,6 +195,7 @@ class Calc extends Component{
                 </div>
              </div>
              </div>
+                    <p>*Yes, it is upside-down. <br/>But why are calculators always stacked bottom to top?</p>
              </div>
         );
     }}

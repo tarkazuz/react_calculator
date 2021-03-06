@@ -4,13 +4,14 @@ body{
     color: #e29d8c;
     font-size: 1.2rem;
     font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #display{
     width:70%;
-
     max-height: 600px;
     margin: 5% auto;
+    margin-bottom:2%;
     padding:3% 1%;
     border-radius: 15px;
     background-color: #370617;
@@ -43,6 +44,7 @@ body{
 
 @media all and (min-width: 1000px){
     #display{
+        height:60vh;
        width: 30%;
     } 
 }
